@@ -7,7 +7,6 @@ public class ArrayListEx {
 	public static void main(String[] args) {
 		
 		ArrayList<String> name = new ArrayList<>();
-		
 		name.add("Ashok");
 		name.add("Amit");
 		name.add("Arun");

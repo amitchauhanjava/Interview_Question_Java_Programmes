@@ -1,4 +1,4 @@
-package array_programs;
+package org.example.array_programs;
 
 public class NonRepeatedElement {
 

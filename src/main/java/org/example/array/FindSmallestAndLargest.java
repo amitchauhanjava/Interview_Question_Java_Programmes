@@ -1,4 +1,4 @@
-package array;
+package org.example.array;
 
 public class FindSmallestAndLargest {
 
@@ -8,15 +8,25 @@ public class FindSmallestAndLargest {
 		
 		int max = num[0];
 		int min = num[0];
-		
-		for (int i = 0; i < num.length; i++) {
-			if (max<num[i]) {
+
+
+		for(int i=0;i<num.length;i++){
+			if(max<num[i]){
 				max = num[i];
-			} else if (min > num[i]) {
+			}else if (min>num[i]){
 				min = num[i];
 			}
 		}
-		System.out.println("Largest Number: "+max);
-		System.out.println("Smallest Number: "+min);
+		System.out.println("maximum number "+max+"\n minimum number "+min);
+
+//		for (int i = 0; i < num.length; i++) {
+//			if (max<num[i]) {
+//				max = num[i];
+//			} else if (min > num[i]) {
+//				min = num[i];
+//			}
+//		}
+//		System.out.println("Largest Number: "+max);
+//		System.out.println("Smallest Number: "+min);
 	}
 }

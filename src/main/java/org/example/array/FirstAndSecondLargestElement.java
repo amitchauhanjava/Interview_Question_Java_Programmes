@@ -1,4 +1,4 @@
-package array;
+package org.example.array;
 
 public class FirstAndSecondLargestElement {
 
